@@ -108,7 +108,7 @@ main{
 
 aside{
     background:var(--coloroscuro);
-    color:var(--segundocolor);
+    color:var(--colorclaro);
 }
 
 footer{
