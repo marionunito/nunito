@@ -9,7 +9,7 @@ Lo primero es definir tres colores, los que deberían coincidir con los utilizad
   --segundocolor: rgba(255,255,255,1); /* menos luminoso */
   --tercercolor: rgba(233,60,172,1); /* más luminoso */
   --colorclaro: rgba(250,250,250,1);
-  --coloroscuro: rgba(0,0,0,1);
+  --coloroscuro: rgba(84,84,120,1);
 }
 
 /* ----------------------------------------- IMPORTANTE -----------------------------------------
@@ -28,7 +28,7 @@ Otra cosa que deberías rescatar de tu fanzine son las tipografías, usando http
 
 body{
     background:var(--segundocolor);
-    color:var(--primercolor);
+    color:var(--coloroscuro);
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
 }
