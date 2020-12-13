@@ -6,8 +6,8 @@ Lo primero es definir tres colores, los que deberían coincidir con los utilizad
 
 :root {
   --primercolor: rgba(255,255,255,1); 
-  --segundocolor: rgba(89,84,120); /* menos luminoso */
-  --tercercolor: rgba(233,60,172); /* más luminoso */
+  --segundocolor: rgba(89,84,120,1); /* menos luminoso */
+  --tercercolor: rgba(233,60,172,1); /* más luminoso */
   --colorclaro: rgba(255,255,255,0.8);
   --coloroscuro: rgba(0,0,0,0.8);
 }
