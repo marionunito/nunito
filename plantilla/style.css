@@ -9,7 +9,7 @@ Lo primero es definir tres colores, los que deberían coincidir con los utilizad
   --segundocolor: rgba(0,255,0,1); /* menos luminoso */
   --tercercolor: rgba(0,0,255,1); /* más luminoso */
   --colorclaro: rgba(250,250,250,1);
-  --coloroscuro: rgba(10,10,10,1);
+  --coloroscuro: rgba(0,0,0,1);
 }
 
 /* ----------------------------------------- IMPORTANTE -----------------------------------------
