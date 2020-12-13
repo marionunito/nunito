@@ -34,12 +34,12 @@ body{
 }
 
 a{
-    color:var(--colorclaro);
+    color:var(--coloroscuro);
     text-decoration: underline;
 }
 
 a:hover{
-    color:var(--colorclaro);
+    color:var(--coloroscuro);
     text-decoration: none;
 }
 
