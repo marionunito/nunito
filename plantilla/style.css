@@ -107,17 +107,17 @@ main{
 }
 
 aside{
-    background:var(--tercercolor);
-    color:var(--colorclaro);
+    background:var(--coloroscuro);
+    color:var(--segundocolor);
 }
 
 footer{
-    color:var(--segundocolor);
+    color:var(--coloroscuro);
 }
 
 footer a{
     text-decoration: none;
-    color:var(--segundocolor);
+    color:var(--coloroscuro);
 }
 
 footer a:hover{
