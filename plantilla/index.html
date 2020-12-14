@@ -203,19 +203,14 @@
                 canvas.parent("#p5");
             }
 
-function setup() {
-  createCanvas(600, 400);
-}
-
 function draw() {
+                background(200);
+                fill(0);
+                ellipse(mouseX, mouseY, 50, 50);
+            }
 
-  if (mouseIsPressed) {
-    fill(50);
-  } else {
-  fill(233,60,172,1);
-
-  }
-  ellipse(mouseX, mouseY, 30, 30);
+            function windowResized() {
+                resizeCanvas(w, h);
 }
 
             }
