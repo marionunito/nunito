@@ -176,6 +176,11 @@ svg#ilustracion {
     font-size:0.8rem;
 }
 
+.card,
+.card-body{
+    background: #fff
+}
+
 .card-text {
         color: #595478
 }
