@@ -108,17 +108,17 @@ main{
 }
 
 aside{
-    background:var(--coloroscuro);
+    background:var(--colorclaro);
     color:var(--colorclaro);
 }
 
 footer{
-    color:var(--coloroscuro);
+    color:var(--colorclaro);
 }
 
 footer a{
     text-decoration: none;
-    color:var(--coloroscuro);
+    color:var(--colorclaro);
 }
 
 footer a:hover{
@@ -178,3 +178,4 @@ svg#ilustracion {
 
 .card-text {
         color: #595478
+}
