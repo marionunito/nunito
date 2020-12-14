@@ -133,13 +133,13 @@ No es necesario modificar lo que sigue.
 ------------------------------------------------------------------------------------------------- */
 
 .card, .card-img-top{
-    background:var(--coloclaro);
+    background:var(--coloroscuro);
     border:none;
     border-radius: 0 0;
 }
 
 svg#ilustracion {
-    background:var(--colorclaro);;
+    background:var(--coloroscuro);;
 }
 
 #p5{
