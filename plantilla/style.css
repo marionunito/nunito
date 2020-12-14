@@ -8,7 +8,7 @@ Lo primero es definir tres colores, los que deberían coincidir con los utilizad
   --primercolor: rgba(84,84,120,1); 
   --segundocolor: rgba(255,255,255,1); /* menos luminoso */
   --tercercolor: rgba(233,60,172,1); /* más luminoso */
-  --colorclaro: rgba(250,250,250,1);
+  --colorclaro: rgba(255,255,255,1);
   --coloroscuro: rgba(84,84,120,1);
 }
 
