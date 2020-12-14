@@ -200,8 +200,7 @@
             // comenzamos con p5.js
             function setup() {
                 var canvas = createCanvas(600, 400);
-                canvas.parent("#p5");
-function draw() {
+                function draw() {
 
   if (mouseIsPressed) {
     fill(0,255,0);
@@ -211,20 +210,8 @@ function draw() {
   }
   ellipse(mouseX, mouseY, 30, 30);
 }
-                <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
 
-  </head>
-  <body>
-    <script src="sketch.js"></script>
-  </body>
-</html>
-
+                canvas.parent("#p5");
 
 
             function windowResized() {
