@@ -133,7 +133,7 @@ No es necesario modificar lo que sigue.
 ------------------------------------------------------------------------------------------------- */
 
 .card, .card-img-top{
-    background:var(--colorclaro);
+    background:var rgba(233,60,172,1);
     border:none;
     border-radius: 0 0;
 }
