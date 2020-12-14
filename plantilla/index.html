@@ -52,7 +52,7 @@
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe
                                     class="embed-responsive-item"
-                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/A42dHCxuJ1w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  <iframe width="992" height="556" src="https://www.youtube.com/embed/A42dHCxuJ1w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen
@@ -199,17 +199,13 @@
             console.log(h);
             // comenzamos con p5.js
             function setup() {
-                var canvas = createCanvas(600, 400);
+                var canvas = createCanvas(w, h);
                 canvas.parent("#p5");
             }
 
-            function draw() {
-                  if (mouseIsPressed) {
-    fill(50);
-  } else {
-    fill(255);
-                background(50);
-                fill(50);
+function draw() {
+                background(200);
+                fill(0);
                 ellipse(mouseX, mouseY, 50, 50);
             }
 
