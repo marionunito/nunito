@@ -133,7 +133,7 @@ No es necesario modificar lo que sigue.
 ------------------------------------------------------------------------------------------------- */
 
 .card, .card-img-top{
-    background:var rgba(233,60,172,1);
+    background:var(--coloclaro);
     border:none;
     border-radius: 0 0;
 }
@@ -175,3 +175,6 @@ svg#ilustracion {
 .modal p.card-text{
     font-size:0.8rem;
 }
+
+.card-text {
+        color: rgba(89,84,120,1)
