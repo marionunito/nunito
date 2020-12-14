@@ -69,15 +69,15 @@ header{
 }
 
 @media (min-width: 576px) { 
-    header{background-image:url('header2.39.png');}
+    header{background-image: url('img/header.png');}
 }
 
 @media (min-width: 768px) { 
-    header{background-image:url('header3.png');}
+    header{background-image: url('img/header3.png');}
 }
 
 @media (min-width: 992px) { 
-    header{background-image:url('header.png');}
+    header{background-image: url('img/header.png');}
 }
 
 
@@ -96,7 +96,7 @@ Con tales colores, la imagen sirve de transición a la parte que ofrece más inf
 ------------------------------------------------------------------------------------------------- */
 
 main{
-    background-image:url('img/wireframe-aspect_ratio-4-1.png');
+    background-image: url('img/wireframe-aspect_ratio-4-1.png');
     background-position: left bottom;
     background-repeat: repeat-x;
     background-size:100% auto;
