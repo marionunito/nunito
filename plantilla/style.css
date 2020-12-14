@@ -113,12 +113,12 @@ aside{
 }
 
 footer{
-    color:var(--colorclaro);
+    color:var(--coloroscuro);
 }
 
 footer a{
     text-decoration: none;
-    color:var(--coloroclaro);
+    color:var(--coloroscuro);
 }
 
 footer a:hover{
