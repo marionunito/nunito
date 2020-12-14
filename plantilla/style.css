@@ -67,7 +67,7 @@ header{
     background-repeat: no-repeat;
     background-size:100% auto;
     color:var(--segundocolor);
-    text-shadow: 2px 2px #ff0000;
+    text-shadow: 2px 2px var(--coloroscuro);
 }
 
 @media (min-width: 576px) { 
