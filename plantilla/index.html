@@ -198,18 +198,31 @@
             console.log(w);
             console.log(h);
             // comenzamos con p5.js
-            function setup() {
-                var canvas = createCanvas(600, 400);
-                function draw() {
+          function setup() {
+                var canvas = createCanvas(w, h);
+                canvas.parent("#p5");
+            }
 
-  if (mouseIsPressed) {
+            function draw() {
+		background(200);
+                  if (mouseIsPressed) {
     fill(0,255,0);
   } else {
   fill(255,0,255);
+                ellipse(mouseX, mouseY, 30, 30);
+            }
+		  function draw() {
+	   if (mouseIsPressed) {
+    fill(0,255,0);
+  } else {
+  fill(255,0,255);
+                ellipse(mouseX, mouseY, 30, 30);
+            }
 
-  }
-  ellipse(mouseX, mouseY, 30, 30);
-}
+            function windowResized() {
+                resizeCanvas(w, h);
+            }
+           
 
                 canvas.parent("#p5");
 
