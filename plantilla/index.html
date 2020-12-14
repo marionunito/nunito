@@ -60,12 +60,12 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-5 p-4 text-md-right order-sm-first">
-                            <h3><i data-feather="film"></i> Documental: "Plantar Pobreza"</h3>
+                            <h3><i data-feather="film"></i> Este subtítulo tiene que comentar un embed</h3>
                             <p>
-                               Plantar Pobreza, el negocio forestal en Chile" es un documental de Resumen.cl que aborda el origen y las consecuencias de la expansión de la industria forestal en la zona centro sur del país. 
+                                El <a href="https://getbootstrap.com/docs/4.5/utilities/embed/"><strong>embed</strong> lo encuentran en las <strong>utilidades</strong></a> del sitio web oficial de Boostrap. Allí se explica su uso, y se presentan otras opciones de "razón" disponibles. Se recomienda mantener la razón 16:9 que es utilizada en este ejemplo y los que siguen.
                             </p>
                             <p class="small d-none d-lg-block">
-                                "Plantar Pobreza" tiene el propósito de contribuir a entender el proceso en que se ha expandido esta industria y sus efectos a diferentes escalas. 
+                                En YouTube busquen el botón de compartir. Al presionarlo, aparece una ventana. Seleccionen la opción "insertar". Copien el código. Luego reemplacen en ancho y alto por la clase de Bootstrap.
                             </p>
                         </div>
                     </div>
@@ -203,20 +203,22 @@
                 canvas.parent("#p5");
             }
 
+function setup() {
+  createCanvas(600, 400);
+}
 
 
 function draw() {
+  background(255);
+  noStroke();
 
-  if (mouseIsPressed) {
-    fill(50);
-  } else {
-  fill(233,60,172,1);
+  // Bright red
+  fill(255,0,0);
+  ellipse(20,20,16,16);
 
-  }
-  ellipse(mouseX, mouseY, 30, 30);
 }
 
-            }
+
 
             function windowResized() {
                 resizeCanvas(w, h);
