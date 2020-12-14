@@ -204,19 +204,24 @@
             console.log(h);
             // comenzamos con p5.js
        function setup() {
-}
+	}
 
-function draw() {
-background(200);
+	function draw() {
+	background(200);
 
-  if (mouseIsPressed) {
-    fill(0,255,0);
-  } else {
-  fill(255,0,255);
+	  if (mouseIsPressed) {
+	    fill(0,255,0);
+	  } else {
+	  fill(255,0,255);
 
-  }
-  ellipse(mouseX, mouseY, 30, 30);
-}
+	  }
+	  ellipse(mouseX, mouseY, 30, 30);
+	}
+		    
+            function windowResized() {
+                resizeCanvas(w, h);
+            }
+           
         </script>
         <!--JavaScript para los 286 feather icons - https://feathericons.com/-->
         <script src="https://unpkg.com/feather-icons"></script>
