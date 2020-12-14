@@ -202,20 +202,17 @@
                 var canvas = createCanvas(600, 400);
                 canvas.parent("#p5");
             }
-
 }
-function setup() {
-  createCanvas(600, 400);
-}
-
 
 function draw() {
-  background(255);
-  noStroke();
+  if (mouseIsPressed) {
+    fill(50);
+  } else {
+    fill(255);
 
-  // Bright red
-  fill(255,0,0);
-  ellipse(20,20,16,16);
+  }
+  ellipse(mouseX, mouseY, 30, 30);
+}
 
 }
 
